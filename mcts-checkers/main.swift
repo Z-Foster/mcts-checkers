@@ -73,9 +73,10 @@ for i in 0..<numberOfGames {
   playerTwo.aveTicks = Int(playerTwo.ticks!)/(playerTwo.moves)
 }
 
-print("Player One:\n Type: \(playerOne.type!.rawValue)")
-print("Wins: \(playerOne.wins) Losses: \(numberOfGames - playerOne.wins)")
+print("Player One:\nType: \(playerOne.type!.rawValue)")
+print("Wins: \(playerOne.wins)")
 print("Average ticks per move: \(playerOne.aveTicks)\n")
-print("Player Two:\n Type: \(playerTwo.type!.rawValue)")
-print("Wins: \(playerTwo.wins) Losses: \(numberOfGames - playerTwo.wins)")
-print("Average ticks per move: \(playerTwo.aveTicks)")
+print("Player Two:\nType: \(playerTwo.type!.rawValue)")
+print("Wins: \(playerTwo.wins)")
+print("Average ticks per move: \(playerTwo.aveTicks)\n")
+print("Draws: \(playerOne.draws)")
