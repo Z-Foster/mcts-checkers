@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9295ACBD1D1C489A00E1C6EC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295ACBC1D1C489A00E1C6EC /* Player.swift */; };
+		9295ACBF1D1C787B00E1C6EC /* CLI-Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295ACBE1D1C787B00E1C6EC /* CLI-Functions.swift */; };
+		92A1686E1CDEAA5100CA1F47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A1686D1CDEAA5100CA1F47 /* main.swift */; };
+		92A168791CDEAA9D00CA1F47 /* CheckersState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A168741CDEAA9D00CA1F47 /* CheckersState.swift */; };
+		92A1687A1CDEAA9D00CA1F47 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A168751CDEAA9D00CA1F47 /* Constants.swift */; };
+		92A1687B1CDEAA9D00CA1F47 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A168761CDEAA9D00CA1F47 /* Move.swift */; };
+		92A1687C1CDEAA9D00CA1F47 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A168771CDEAA9D00CA1F47 /* Node.swift */; };
+		92A1687D1CDEAA9D00CA1F47 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A168781CDEAA9D00CA1F47 /* State.swift */; };
+		92A168801CDEAF1000CA1F47 /* BoardLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A1687F1CDEAF1000CA1F47 /* BoardLocation.swift */; };
+		92B556071D199C1C00811566 /* AI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B556061D199C1C00811566 /* AI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92A168681CDEAA5100CA1F47 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9295ACBC1D1C489A00E1C6EC /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9295ACBE1D1C787B00E1C6EC /* CLI-Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLI-Functions.swift"; sourceTree = "<group>"; };
+		92A1686A1CDEAA5100CA1F47 /* mcts-checkers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "mcts-checkers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A1686D1CDEAA5100CA1F47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		92A168741CDEAA9D00CA1F47 /* CheckersState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckersState.swift; sourceTree = "<group>"; };
+		92A168751CDEAA9D00CA1F47 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		92A168761CDEAA9D00CA1F47 /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		92A168771CDEAA9D00CA1F47 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		92A168781CDEAA9D00CA1F47 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		92A1687F1CDEAF1000CA1F47 /* BoardLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardLocation.swift; sourceTree = "<group>"; };
+		92B556061D199C1C00811566 /* AI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A168671CDEAA5100CA1F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A168611CDEAA5100CA1F47 = {
+			isa = PBXGroup;
+			children = (
+				92A1686C1CDEAA5100CA1F47 /* mcts-checkers */,
+				92A1686B1CDEAA5100CA1F47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A1686B1CDEAA5100CA1F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A1686A1CDEAA5100CA1F47 /* mcts-checkers */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A1686C1CDEAA5100CA1F47 /* mcts-checkers */ = {
+			isa = PBXGroup;
+			children = (
+				92A1686D1CDEAA5100CA1F47 /* main.swift */,
+				9295ACBE1D1C787B00E1C6EC /* CLI-Functions.swift */,
+				92A168781CDEAA9D00CA1F47 /* State.swift */,
+				9295ACBC1D1C489A00E1C6EC /* Player.swift */,
+				92A168741CDEAA9D00CA1F47 /* CheckersState.swift */,
+				92A168751CDEAA9D00CA1F47 /* Constants.swift */,
+				92A168761CDEAA9D00CA1F47 /* Move.swift */,
+				92A1687F1CDEAF1000CA1F47 /* BoardLocation.swift */,
+				92A168771CDEAA9D00CA1F47 /* Node.swift */,
+				92B556061D199C1C00811566 /* AI.swift */,
+			);
+			path = "mcts-checkers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A168691CDEAA5100CA1F47 /* mcts-checkers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A168711CDEAA5100CA1F47 /* Build configuration list for PBXNativeTarget "mcts-checkers" */;
+			buildPhases = (
+				92A168661CDEAA5100CA1F47 /* Sources */,
+				92A168671CDEAA5100CA1F47 /* Frameworks */,
+				92A168681CDEAA5100CA1F47 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mcts-checkers";
+			productName = "mcts-checkers";
+			productReference = 92A1686A1CDEAA5100CA1F47 /* mcts-checkers */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A168621CDEAA5100CA1F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zach Foster";
+				TargetAttributes = {
+					92A168691CDEAA5100CA1F47 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 92A168651CDEAA5100CA1F47 /* Build configuration list for PBXProject "mcts-checkers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92A168611CDEAA5100CA1F47;
+			productRefGroup = 92A1686B1CDEAA5100CA1F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A168691CDEAA5100CA1F47 /* mcts-checkers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A168661CDEAA5100CA1F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295ACBF1D1C787B00E1C6EC /* CLI-Functions.swift in Sources */,
+				92B556071D199C1C00811566 /* AI.swift in Sources */,
+				92A1687B1CDEAA9D00CA1F47 /* Move.swift in Sources */,
+				92A1687C1CDEAA9D00CA1F47 /* Node.swift in Sources */,
+				92A1686E1CDEAA5100CA1F47 /* main.swift in Sources */,
+				92A168801CDEAF1000CA1F47 /* BoardLocation.swift in Sources */,
+				92A168791CDEAA9D00CA1F47 /* CheckersState.swift in Sources */,
+				92A1687A1CDEAA9D00CA1F47 /* Constants.swift in Sources */,
+				9295ACBD1D1C489A00E1C6EC /* Player.swift in Sources */,
+				92A1687D1CDEAA9D00CA1F47 /* State.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92A1686F1CDEAA5100CA1F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92A168701CDEAA5100CA1F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92A168721CDEAA5100CA1F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92A168731CDEAA5100CA1F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A168651CDEAA5100CA1F47 /* Build configuration list for PBXProject "mcts-checkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A1686F1CDEAA5100CA1F47 /* Debug */,
+				92A168701CDEAA5100CA1F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A168711CDEAA5100CA1F47 /* Build configuration list for PBXNativeTarget "mcts-checkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A168721CDEAA5100CA1F47 /* Debug */,
+				92A168731CDEAA5100CA1F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A168621CDEAA5100CA1F47 /* Project object */;
+}
